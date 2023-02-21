@@ -46,7 +46,7 @@ const OurClass: Array<ClassType> = [
 
 const OutraClasse = ({ setSelectPage, }: props) => {
     return (
-        <section id="outraclasses" className='w-full bg-primary-100 py-40'>
+        <section id="OutraClasse" className='w-full bg-primary-100 py-40'>
             <motion.div
                 className=''
                 onViewportEnter={() => setSelectPage(SelectPage.OutraClasse)}

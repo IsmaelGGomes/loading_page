@@ -136,11 +136,15 @@ const Contate_nos = ({ setSelectPage }: Props) => {
                         transition={{ delay: 0.2, duration: 0.5 }}
                         variants={{
                             hidden: { opacity: 0, y: 50 },
-                            visible: { opacity: 1, y: 0 },
+                            visible: { opacity: 1, y: 0.5 },
                         }}
                     >
-                        <div className="md:">
-                            <img src="" alt="" />
+                        <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
+                            <img 
+                            src={ContactUsPageGraphic} 
+                            alt="contact-us-page" 
+                            className='w-full'
+                            />
                         </div>
                     </motion.div>
                 </div>

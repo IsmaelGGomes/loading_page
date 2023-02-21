@@ -41,7 +41,7 @@ const Navbar = ({
                                     selectPage={selectPage}
                                     setSelectPage={setSelectPage}
                                 />
-                                <Link page="Outras Classes"
+                                <Link page="OutraClasse"
                                     selectPage={selectPage}
                                     setSelectPage={setSelectPage}
                                 />

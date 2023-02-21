@@ -5,6 +5,7 @@ import Home from "@/scenes/home";
 import Beneficios from "@/scenes/beneficios/";
 import OutraClasse from "@/scenes/outraClasse/";
 import Contate_nos from "@/scenes/contato/";
+import Footer from "@/scenes/footer/";
 
 function App() {
   const [selectPage,setSelectPage]= useState<SelectPage>(SelectPage.Home);
@@ -34,6 +35,8 @@ function App() {
       <Beneficios setSelectPage={setSelectPage}/>
       <OutraClasse setSelectPage={setSelectPage}/>
       <Contate_nos setSelectPage={setSelectPage}/>
+      <Footer setSelectPage={setSelectPage}/>
+
     </div>
   );
 }
