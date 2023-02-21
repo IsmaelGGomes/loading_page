@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { SelectPage } from "@/shared/types";
 import Home from "@/scenes/home";
 import Beneficios from "@/scenes/beneficios/";
+import OutraClasse from "@/scenes/outraClasse/";
+import Contate_nos from "@/scenes/contato/";
 
 function App() {
   const [selectPage,setSelectPage]= useState<SelectPage>(SelectPage.Home);
@@ -30,6 +32,8 @@ function App() {
       />
       <Home setSelectPage={setSelectPage}/>
       <Beneficios setSelectPage={setSelectPage}/>
+      <OutraClasse setSelectPage={setSelectPage}/>
+      <Contate_nos setSelectPage={setSelectPage}/>
     </div>
   );
 }
