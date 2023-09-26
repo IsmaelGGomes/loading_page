@@ -2,7 +2,11 @@ import React from "react";
 import { SelectPage } from '@/shared/types';
 import Logo from '@/assets/Logo.png';
 
-const Footer = () => {
+type Props = {
+    setSelectPage: (value: SelectPage) => void;
+}
+
+const Footer = ({ setSelectPage }: Props) => {
     return (
         <footer className="bg-primary-100 py-16">
             <div className="justify-content mx-auto w-5/6 gap-16 md:flex">

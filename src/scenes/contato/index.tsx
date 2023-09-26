@@ -44,8 +44,7 @@ const Contate_nos = ({ setSelectPage }: Props) => {
                     }}
                 >
                     <Htext>
-                        {" "} VAMO METE O SHAPE
-                        <span className='text-primary-500'> AGORA</span>
+                        AGORA VAMO METE O SHAPE
                     </Htext>
                     <p className='my-5'>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque

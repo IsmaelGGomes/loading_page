@@ -88,8 +88,7 @@ const Beneficios = ({ setSelectPage }: Props) => {
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
                 <div className="">
                   <Htext>
-                    MILHÕES DE FELICIDAES ESPERANDO PRO VOCÊ{" "}
-                    <span className="text-primary-500" >FIT</span>
+                    MILHÕES DE FELICIDAES ESPERANDO PRO VOCÊ FIT
                   </Htext>
                 </div>
               </div>
